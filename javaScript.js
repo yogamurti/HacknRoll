@@ -29,6 +29,11 @@ function info() {
           }
         }
      },
+    plotOptions: {
+            series: {
+                connectNulls: true
+            }
+      },
       yAxis: {
         allowDecimals: false,
         title: {
