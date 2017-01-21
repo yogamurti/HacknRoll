@@ -11,21 +11,6 @@ form {
   padding-top: 100px;
 }
 
-h4 {
-    display: block;
-    font-size: .83em;
-    margin-top: 1.67em;
-    margin-bottom: 1.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    text-align: left;
-}
-
-div.column {
-    display: inline-block;
-}
-
 .shows{
     text-align:center;
 }
@@ -39,4 +24,82 @@ div.column {
     color: #FFF;
     font-family:Lucida Sans Unicode;
     fontWeight: 300;
+}
+
+.topbar {
+  padding-top: 100px;
+  margin-bottom: auto;
+}
+
+.tocenter {
+  /* to position menu bar */
+    width: 1051;
+    max-width: 1162.57;
+    margin: 0 auto;
+}
+
+#wrap {
+    margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+    z-index: 99; /* Makes sure that menu remains on top of other page elements */
+    position: relative;
+    background-color: #366b82;
+}
+
+.menu {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute; /* Ensures that the menu doesn’t affect other elements */
+    border-right: 1px solid #54879d;
+}
+
+.menu li {
+    height: auto;
+    width: 150px;  /* Each menu item is 150px wide */
+    float: left;  /* This lines up the menu items horizontally */
+    text-align: center;  /* All text is placed in the center of the box */
+    list-style: none;  /* Removes the default styling (bullets) for the list */
+    font: normal bold 14px/1.2em Times New Roman;
+    padding: 0;
+    margin: 0;
+    background-color: #366b82;
+}
+
+.menu a {
+    padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+    border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+    border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+    text-decoration: none;  /* Removes the default hyperlink styling. */
+    color: white; /* Text color is white */
+    display: block;
+}
+
+li:hover#menu, a:hover#menu {
+    background-color: red;
+}
+
+.menu li ul {
+    display: none;  /* Hides the drop-down menu */
+    height: auto;
+    margin: 0; /* Aligns drop-down box underneath the menu item */
+    padding: 0; /* Aligns drop-down box underneath the menu item */
+}
+
+.menu li:hover ul {
+    display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
+
+.menu li ul li {
+    background-color: #54879d;
+}
+
+.menu li ul li a {
+    border-left: 1px solid #1f5065;
+    border-right: 1px solid #1f5065;
+    border-top: 1px solid #74a3b7;
+    border-bottom: 1px solid #1f5065;
+}
+
+.menu li ul li a:hover {
+    background-color: red;
 }
