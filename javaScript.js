@@ -29,11 +29,6 @@ function info() {
           }
         }
      },
-    plotOptions: {
-            series: {
-                connectNulls: true
-            }
-      },
       yAxis: {
         allowDecimals: false,
         title: {
@@ -91,23 +86,23 @@ function info() {
       {
         name: 'Lecture 1',
         data: [
-        
+
           {
             y:       80,
           },
-        
+
           {
             y:       null,
           },
-        
+
           {
             y:       83,
           },
-        
+
           {
             y:       85,
           },
-        
+
           {
             y:       74,
           }
@@ -120,19 +115,19 @@ function info() {
       {
         name: 'Lecture 2',
         data: [
-        
+
           {
             y:       23,
           },
-        
+
           {
             y:       46,
           },
-        
+
           {
             y:       53,
           },
-        
+
           {
             y:       75,
           },
@@ -148,3 +143,12 @@ function info() {
       ]
   });
 };
+
+function go() {
+  var data = document.getElementById("MC");
+  var sendData = "data=" + data;
+alert(sendData);
+  $.post("display.php", sendData, function(response) {
+    alert(response);
+  });
+}

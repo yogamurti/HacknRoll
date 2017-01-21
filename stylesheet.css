@@ -2,24 +2,32 @@ body{
     background-color:#17202A;
 }
 
+.post {
+  padding-top: 40px;
+  margin-bottom: auto;
+}
+
+form {
+  padding-top: 100px;
+}
+
+h4 {
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+div.column {
+    display: inline-block;
+}
+
 .shows{
     text-align:center;
-}
-
-.optionButton {
-    background-color: #e50914;
-    color: white;
-    margin: 10px;
-    font-size: 16px;
-    border-style: solid;
-    cursor: pointer;
-    border: solid 2px #cccccc;
-    width:230px;
-    height:50px;
-}
-
-.optionButton:hover {
-    background-color: #cc0000;
 }
 
 .mainHeading{
