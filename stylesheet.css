@@ -32,9 +32,7 @@ form {
 }
 
 .tocenter {
-  /* to position menu bar */
-    width: 1051;
-    max-width: 1162.57;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -50,25 +48,27 @@ form {
     padding: 0;
     margin: 0;
     position: absolute; /* Ensures that the menu doesn’t affect other elements */
-    border-right: 1px solid #54879d;
+    border-right: 1px solid #8c8c8c;
 }
 
 .menu li {
     height: auto;
-    width: 150px;  /* Each menu item is 150px wide */
+    width: 200px;  /* Each menu item is 150px wide */
     float: left;  /* This lines up the menu items horizontally */
     text-align: center;  /* All text is placed in the center of the box */
     list-style: none;  /* Removes the default styling (bullets) for the list */
     font: normal bold 14px/1.2em Times New Roman;
     padding: 0;
     margin: 0;
-    background-color: #366b82;
+    background-color: #000;
 }
 
 .menu a {
     padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
-    border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
-    border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+    border-left: 1px solid #8c8c8c; 
+    border-right: 1px solid #8c8c8c; 
+    border-top: 1px solid #8c8c8c; 
+    border-bottom: 1px solid #8c8c8c; 
     text-decoration: none;  /* Removes the default hyperlink styling. */
     color: white; /* Text color is white */
     display: block;
@@ -90,16 +90,21 @@ li:hover#menu, a:hover#menu {
 }
 
 .menu li ul li {
-    background-color: #54879d;
+    background-color: #262626;
 }
 
 .menu li ul li a {
-    border-left: 1px solid #1f5065;
-    border-right: 1px solid #1f5065;
-    border-top: 1px solid #74a3b7;
-    border-bottom: 1px solid #1f5065;
+    border-left: 1px solid #8c8c8c;
+    border-right: 1px solid #8c8c8c;
+    border-top: 1px solid #8c8c8c;
+    border-bottom: 1px solid #8c8c8c;
 }
 
 .menu li ul li a:hover {
-    background-color: red;
+    background-color: #1a1a1a;
+}
+
+.graphDisplay{
+    width:75%;
+    margin:0 auto;
 }

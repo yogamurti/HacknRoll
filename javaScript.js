@@ -68,7 +68,7 @@ function info0() {
         }
       },
       title: {
-        text: $('<div/>').html('ACC1002X').text(),
+        text: $('<div/>').html('Bidding Round 1A - ACC1002X - School of Business - Programme').text(),
         style: {
           color: "#FFF",
           font: '26px Lucida Sans Unicode',
@@ -85,11 +85,12 @@ function info0() {
         }
        },
         tooltip: {
-            valueSuffix: ' Points'
+            valueSuffix: ' Point(s)'
         },
       series: [
       {
         name: 'Lecture 1',
+        color:'purple',
         data: [
 
           {
@@ -123,6 +124,7 @@ function info0() {
       },
       {
         name: 'Lecture 2',
+        color:'green',
         data: [
 
           {
@@ -156,6 +158,7 @@ function info0() {
       },
       {
         name: 'Lecture 3',
+        color:'orange',
         data: [
 
           {
@@ -260,7 +263,7 @@ function info1() {
         }
       },
       title: {
-        text: $('<div/>').html('ACC1002X').text(),
+        text: $('<div/>').html('Bidding Round 2A - ACC1002X - School of Business - Programme').text(),
         style: {
           color: "#FFF",
           font: '26px Lucida Sans Unicode',
@@ -277,11 +280,12 @@ function info1() {
         }
        },
         tooltip: {
-            valueSuffix: ' Points'
+            valueSuffix: ' Point(s)'
         },
       series: [
       {
         name: 'Lecture 1',
+        color:'purple',
         data: [
 
           {
@@ -315,6 +319,7 @@ function info1() {
       },
       {
         name: 'Lecture 2',
+        color:'green',
         data: [
 
           {
@@ -348,6 +353,7 @@ function info1() {
       },
       {
         name: 'Lecture 3',
+        color:'orange',
         data: [
 
           {
@@ -451,7 +457,7 @@ function info2() {
         }
       },
       title: {
-        text: $('<div/>').html('CS1010S').text(),
+        text: $('<div/>').html('Bidding Round 2A - CS1010S - School of Computing - Programme').text(),
         style: {
           color: "#FFF",
           font: '26px Lucida Sans Unicode',
@@ -468,11 +474,12 @@ function info2() {
         }
        },
         tooltip: {
-            valueSuffix: ' Points'
+            valueSuffix: ' Point(s)'
         },
       series: [
       {
         name: 'Lecture 1',
+        color:'purple',
         data: [
 
           {
@@ -576,7 +583,7 @@ function info3() {
         }
       },
       title: {
-        text: $('<div/>').html('EC1301').text(),
+        text: $('<div/>').html('Bidding Round 2A - EC1301 - School of Computing - Programme').text(),
         style: {
           color: "#FFF",
           font: '26px Lucida Sans Unicode',
@@ -593,11 +600,12 @@ function info3() {
         }
        },
         tooltip: {
-            valueSuffix: ' Points'
+            valueSuffix: ' Point(s)'
         },
       series: [
       {
         name: 'Lecture 1',
+        color:'purple',
         data: [
 
           {
@@ -631,6 +639,7 @@ function info3() {
       },
       {
         name: 'Lecture 2',
+        color:'green',
         data: [
 
           {
@@ -734,7 +743,7 @@ function info4() {
         }
       },
       title: {
-        text: $('<div/>').html('MKT1003X').text(),
+        text: $('<div/>').html('Bidding Round 2A - MKT1003X - School of Computing - Programme').text(),
         style: {
           color: "#FFF",
           font: '26px Lucida Sans Unicode',
@@ -751,11 +760,12 @@ function info4() {
         }
        },
         tooltip: {
-            valueSuffix: ' Points'
+            valueSuffix: ' Point(s)'
         },
       series: [
       {
         name: 'Lecture 1',
+        color:'purple',
         data: [
 
           {
@@ -789,6 +799,7 @@ function info4() {
       },
       {
         name: 'Lecture 2',
+        color:'green',
         data: [
 
           {
@@ -892,7 +903,7 @@ function info5() {
         }
       },
       title: {
-        text: $('<div/>').html('PL1101E').text(),
+        text: $('<div/>').html('Bidding Round 2A - PL1101E - Faculty of Arts and Social Sciences - Programme').text(),
         style: {
           color: "#FFF",
           font: '26px Lucida Sans Unicode',
@@ -909,11 +920,12 @@ function info5() {
         }
        },
         tooltip: {
-            valueSuffix: ' Points'
+            valueSuffix: ' Point(s)'
         },
       series: [
       {
         name: 'Lecture 1',
+        color:'purple',
         data: [
 
           {
@@ -947,6 +959,7 @@ function info5() {
       },
       {
         name: 'Lecture 2',
+        color:'green',
         data: [
 
           {
@@ -982,6 +995,7 @@ function info5() {
   });
 };
 
+// not used
 function info6() {
   $('#graph').highcharts({
       chart: {
@@ -1067,11 +1081,12 @@ function info6() {
         }
        },
         tooltip: {
-            valueSuffix: ' Points'
+            valueSuffix: ' Point(s)'
         },
       series: [
       {
         name: 'Lecture 1',
+        color:'purple',
         data: [
 
           {
@@ -1175,7 +1190,7 @@ function info7() {
         }
       },
       title: {
-        text: $('<div/>').html('MKT1003X').text(),
+        text: $('<div/>').html('Bidding Round 2A - MKT1003X - Faculty of Science - Programme').text(),
         style: {
           color: "#FFF",
           font: '26px Lucida Sans Unicode',
@@ -1192,11 +1207,12 @@ function info7() {
         }
        },
         tooltip: {
-            valueSuffix: ' Points'
+            valueSuffix: ' Point(s)'
         },
       series: [
       {
         name: 'Lecture 1',
+        color:'purple',
         data: [
 
           {
@@ -1230,6 +1246,7 @@ function info7() {
       },
       {
         name: 'Lecture 2',
+        color:'green',
         data: [
 
           {
@@ -1265,11 +1282,11 @@ function info7() {
   });
 };
 
-function go() {
-  var data = document.getElementById("MC");
-  var sendData = "data=" + data;
-alert(sendData);
-  $.post("display.php", sendData, function(response) {
-    alert(response);
-  });
-}
+//function go() {
+//  var data = document.getElementById("MC");
+//  var sendData = "data=" + data;
+//alert(sendData);
+//  $.post("display.php", sendData, function(response) {
+//    alert(response);
+//  });
+//}
